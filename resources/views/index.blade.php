@@ -91,14 +91,19 @@
                 <div class="title m-b-md">
                     Laravel OAuth 2.0
                 </div>
-                <div class="links">
-                    <a href="{{ route('social.facebook.login', ['provider' => 'facebook']) }}" class="btn btn-facebook">
-                        Facebook
-                    </a>
-                    <a href="{{ route('social.facebook.login', ['provider' => 'google']) }}" class="btn btn-google">
-                        Google
-                    </a>
-                </div>
+                @if (!Auth::check())
+                    <div class="links">
+                        @if (isSecureProtocol())
+                            <a href="{{ route('social.facebook.login', ['provider' => 'facebook']) }}" class="btn btn-facebook">
+                                Facebook
+                            </a>
+                        @endif
+                        log in with
+                        <a href="{{ route('social.facebook.login', ['provider' => 'google']) }}" class="btn btn-google">
+                            Google
+                        </a>
+                    </div>
+                @endif
             </div>
         </div>
         <script type="text/javascript" src="{{ asset('bower_components/jquery/dist/jquery.min.js') }}"></script>
