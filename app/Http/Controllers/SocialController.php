@@ -4,8 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Socialite;
-use Auth;
-use App\{User, UserSocialAccount};
 use App\Traits\Guest;
 use App\Responsables\SocialLoginResponsable;
 
