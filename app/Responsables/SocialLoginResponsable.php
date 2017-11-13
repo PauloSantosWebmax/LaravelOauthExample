@@ -44,10 +44,10 @@ class SocialLoginResponsable implements Responsable
 
                 // Crate the user and adicional data
                 $this->createUserAndSetData($user);
-
-                // redirect
-                return redirect('home');
             }
+            
+            // redirect
+            return redirect('home');
         } else {
             // permission denied
             abort(403);
