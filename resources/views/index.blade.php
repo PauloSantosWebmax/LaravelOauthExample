@@ -102,5 +102,8 @@
                 </div>
             </div>
         </div>
+        <script type="text/javascript" src="{{ asset('bower_components/jquery/dist/jquery.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('bower_components/gasparesganga-jquery-loading-overlay/src/loadingoverlay.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('assets/js/index.js') }}"></script>
     </body>
 </html>
