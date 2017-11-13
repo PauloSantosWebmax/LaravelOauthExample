@@ -91,7 +91,6 @@
                 <div class="title m-b-md">
                     Laravel OAuth 2.0
                 </div>
-
                 <div class="links">
                     <a href="{{ route('social.facebook.login', ['provider' => 'facebook']) }}" class="btn btn-facebook">
                         Facebook

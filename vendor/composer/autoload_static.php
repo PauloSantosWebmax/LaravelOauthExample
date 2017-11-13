@@ -18,6 +18,7 @@ class ComposerStaticInit7fd66aae876c126d69a44c7d9a534d44
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
+        '1a6172283e4da6b4df8b9c9c3caa319d' => __DIR__ . '/../..' . '/app/Functions/HttpHelpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -356,8 +357,10 @@ class ComposerStaticInit7fd66aae876c126d69a44c7d9a534d44
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+        'App\\Responsables\\SocialLoginResponsable' => __DIR__ . '/../..' . '/app/Responsables/SocialLoginResponsable.php',
         'App\\Traits\\Guest' => __DIR__ . '/../..' . '/app/Traits/Guest.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
+        'App\\UserSocialAccount' => __DIR__ . '/../..' . '/app/UserSocialAccount.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
