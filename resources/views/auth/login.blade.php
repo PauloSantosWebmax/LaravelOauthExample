@@ -66,8 +66,9 @@
                                     <a href="{{ route('social.facebook.login', ['provider' => 'google']) }}" class="btn btn-primary">
                                         login with Google
                                     </a>
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        Forgot Your Password?
+                                    <div class="clearfix"></div>
+                                    <a href="{{ route('password.request') }}">
+                                        <br>Forgot Your Password?
                                     </a>
                                 </div>
                             </div>
